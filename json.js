@@ -11,14 +11,10 @@ async function getBlogs() {
 
     const json = await response.json();
 
-    const generalJokes = [];
-
-    console.log(json);
+    //console.log(json);
 
     for (let i = 0; i < json.length; i++) {
-        console.log(json[i].type);    
-        
-
+        //console.log(json[i]);   
 
         Container.innerHTML += `<a  href="details.html?id=${json[i].id}" class="card">
                                 <h2 class="overskrif-jokes">${json[i].type}</h2>
@@ -37,18 +33,21 @@ async function getBlogs() {
 
 getBlogs();
 
+buttonGeneral.addEventListener("click", e => {
+    
+    for (let i = 0; i < json.length; i++) {
 
-/*
-const jokesFilter = json;
-const generalJokes = [];
+    console.log(json[i]);
 
-for (var i = 0; i < json.length; i++) {
-    const json2 = json[i].type;
-    if (json2 !== "general") {
-        generalJokes.push(json2);
+if (json[i].type !== "general") {
+        
     }
-}
+}  
+    console.log(buttonGeneral);
+})
 
-console.log(generalJokes);
 
-*/
+
+console.log(json[i].type);
+
+

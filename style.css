@@ -265,7 +265,7 @@ p {
     .card{
         display: flex;
         flex-direction: column;
-        height: 100px;
+        height: 150px;
         width: 200px;
         border: black solid 2px;
     }
