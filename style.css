@@ -1,0 +1,1130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, nav, a{
+  font-family: 'Josefin Sans', sans-serif, 'Josefin Slab', serif, verdana; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif, 'Open Sans', sans-serif, arial;
+}
+
+        /* 
+    --------------------------------------------------------
+    HEADER SECTION 
+    --------------------------------------------------------
+    */
+
+    .Header_box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        background-color: rgb(226, 226, 226);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mobile-image-source{
+        height: 100px;
+    }
+
+    .hamburger-menu-class{
+        display: none;
+    }
+
+    .fa-solid.fa-bars{
+        display: none;
+    }
+
+    .hamburger_menu_section{
+        display: flex;
+        align-self: center;
+    }
+
+    .shopping-cart-ikon-a{
+        color: black;
+    }
+
+    nav{
+        align-self: center;
+    }
+
+    .fa-solid.fa-cart-shopping{
+        align-self: center;
+        font-size: 28px;
+    }
+
+    nav a{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+    .front-page{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+    }
+
+
+    .front-page img{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .front-page button {
+        background-color: lightskyblue;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 80%;
+        top: 30%;
+        z-index: 5;
+    }
+
+    .section_2{
+        margin: 20px;
+    }
+
+    .girl_or_men_chooser{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .girl_or_men_chooser img{
+        width: 100%;
+    }
+
+    .men_section{
+        align-self: center;
+    }
+
+    .first_page_with_content{
+        background-image: url("images/pexels-gabriela-palai-395242\ \(1\)\ endret\ størrelse.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 65vh;
+        padding: auto;
+    }
+
+    .row{
+        display: flex;
+        height: 100%; 
+    }
+
+    .col-2{
+        align-self: flex-end;
+        background-color: rgb(216, 214, 214);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10%;
+    }
+
+    .col-2 a{
+        color: white;
+        text-decoration: none; 
+        background-color: #ff523b;
+        padding: 8px 20px;
+        margin:30px 0;
+        border-radius: 30px;
+    }
+
+    .col-2 h1{
+        padding: 10px;
+    }
+
+        /* 
+    --------------------------------------------------------
+    HEADER SECTION DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    MAIN SECTION 
+    --------------------------------------------------------
+    */
+
+    .main-container{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+
+    .title-for-main-container{
+        text-align: center;
+        position: relative;
+        line-height: 60px;
+        color: #555;
+        margin-top: 20px;
+    }
+
+    .title-for-main-container::after{
+        content: "";
+        background: #f14d37;
+        width: 300px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .row-inside-main-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .products-columns{
+        max-width: 400px;
+        border: black solid 2px;
+        padding: 5px;
+        background-color: rgb(255, 221, 208);
+    }    
+    
+    .products-columns img{
+        width: 100%;
+    }
+
+    .title-for-main-container{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    /* 
+    --------------------------------------------------------
+    MAIN SECTION DONE
+    --------------------------------------------------------
+    */
+
+        /* 
+    --------------------------------------------------------
+    JOKES CSS
+    --------------------------------------------------------
+    */
+
+    .btn{
+        cursor: pointer;
+        padding: 20px;
+        background-color: wheat;
+        border-radius: 10px;
+    }
+
+    .btn:hover{
+        background-color: lightgrey;
+    }
+
+    .h1forjokes{
+        text-align: center;
+    }
+
+    .wrapper{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .p-jokes{
+        color: black;
+        text-decoration: none;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 200px;
+        border: black solid 2px;
+    }
+
+    .overskrif-jokes{
+        align-self: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .p-jokes{
+    }
+
+    /* 
+    --------------------------------------------------------
+    JOKES CSS DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION 
+    --------------------------------------------------------
+    */
+
+
+
+
+    .footer_section{
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    .footer_container{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0%;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+    .footer-container1, .footer-container2, .footer-container3, .footer-container4{
+        flex-basis: 40%;
+        text-align: center;
+    }
+
+    .footer-container1 h3, .footer-container2 h3, .footer-container3 h3, .footer-container4 h3{
+        text-decoration: underline;
+    }
+
+
+
+    .footer-container1 p, .app_icons, .footer-container2 p, .footer-container3 ul li{
+        color: #777171;
+        font-size: 16px;
+        margin-top: 5%;
+        list-style: none;
+    }
+
+    .app_icons, .social-meida-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 10%;
+        font-size: 24px;
+    }
+
+    .app_icons a i, .social-meida-icons a i{
+        color: #777171;
+    }
+
+    .copyright{
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    .copyright p{
+        color: white;
+        text-align: center;
+    }
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION DONE
+    --------------------------------------------------------
+    */
+
+        /* 
+    --------------------------------------------------------
+    PRODUCT PAGE
+    --------------------------------------------------------
+    */
+
+    .row-inside-main-container-2{
+        text-align: center;
+        padding: 30px;
+    }
+
+    select{
+        border: 2px solid #000000;
+        padding: 5px;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .product{
+        border: 1px solid rgb(170, 170, 189);
+    }
+
+    .product img{
+        width: 100%;
+    }
+
+    .product.detail.picture{
+        width: 100%;
+    }
+
+    .product.detail.picture
+
+    /* 
+    --------------------------------------------------------
+    PRODUCT PAGE DONE
+    --------------------------------------------------------
+    */
+
+
+            /* 
+    --------------------------------------------------------
+    PRODUCT DETAIL PAGE
+    --------------------------------------------------------
+    */
+
+    .container-for-product-page{
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .row-for-product-page{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .col-2-for-product-page, .column-for-product-page{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-self: center;
+        background-color: rgb(216, 214, 214);
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    .col-2-for-product-page{
+        max-width: 400px;
+    }
+
+    .btn-for-product-page{
+        text-decoration: none;
+        background-color: #ff523b;
+        padding:5px;
+        color: white;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .container-for-product-page{
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .column-for-product-page{
+        max-width: 500px;
+    }
+
+    #ProductImg{
+        max-width: 400px;
+        max-height: 355px;
+        object-fit: scale-down;
+    }
+
+    .col-2-for-product-page select{
+        max-width: 200px;
+    }
+
+    .col-2-for-product-page input {
+        max-width: 100px;
+    }
+
+    .small-img-col img{
+        width: 100px;
+        height: 100px;
+        object-fit: scale-down;
+    }
+
+    .small-img-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .small-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+    }
+
+
+    /* 
+    --------------------------------------------------------
+    PRODUCT DETAIL PAGE DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    CART PAGE
+    --------------------------------------------------------
+    */
+
+    .small-container-for-cart{
+        height: 50vh;
+        margin: 80px auto;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .cart-info{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    th{
+        text-align: left;
+        padding: 5px;
+        color: white;
+        background: #ff523b;
+    }
+
+    td{
+        padding: 10px 5px;
+    }
+
+    td input{
+        width: 40px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    td a{
+        color: #ff523b;
+        font-size: 12px;
+    }
+
+    td img{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        object-fit: scale-down;
+    }
+
+
+
+
+
+    /* 
+    --------------------------------------------------------
+    CART PAGE DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    REGISTRATION FORM
+    --------------------------------------------------------
+    */
+
+    #form{
+        width: 300px;
+        margin: 50px auto 50px auto;
+        padding: 50px;
+        background-color: rgb(228, 228, 228);
+        font-size: 14px;
+    }
+
+    #form h1{
+        text-align: center;
+        text-decoration: underline 4px;
+        padding-bottom: 10px;
+    }
+
+    #form button{
+        width: 100%;
+        background: #ff523b;
+        color: white;
+        text-decoration: solid;
+        font-size: 24px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .input-control {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-control input{
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .input-control input:focus{
+        outline: 0;
+    }
+
+    input-control.error input {
+        border-color: #ff3860;
+    }
+
+    .input-control .error {
+        color: red;
+        font-size: 9px;
+        height: 13px;
+    }
+
+
+    /* 
+    --------------------------------------------------------
+    REGISTRATION FORM DONE
+    --------------------------------------------------------
+    */
+
+
+        /* 
+    --------------------------------------------------------
+    REGISTRATION FORM #2
+    --------------------------------------------------------
+    */
+
+    .h1-for-form-container{
+        text-align: center;
+        font-size: 50px;
+        margin: 20px;
+        text-decoration: underline;
+    }
+
+  .container-for-form{
+    width: 100%;
+    height: 100vh;
+    background-color: #141a34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-for-form form{
+    width: 90%;
+    max-width: 500px;
+    padding: 40px 25px 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(9, 0, 0, 0.5);
+    position: relative;
+  }
+
+  .input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  .input-group label{
+    flex-basis: 28%;
+  }
+
+  .input-group input, .input-group textarea{
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+  }
+
+  ::placeholder{
+    font-size: 14px;
+  }
+
+  form button{
+    background: #141a34;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 15px 50px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px autp 10px;
+  }
+
+
+
+
+    /* 
+    --------------------------------------------------------
+    REGISTRATION FORM #2 DONE
+    --------------------------------------------------------
+    */
+
+    .input-group span{
+        position: absolute;
+        bottom: 12px;
+        right: 17px;
+        font-size: 14px;
+        color: red;
+    }
+
+    #submit-error{
+        color: red;
+    }
+
+
+
+    .form-control label{
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+
+    .form-control input{
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .form-control input:focus {
+        outline: 0;
+        border-color: #777;
+    }
+
+    .form-control.success input {
+        border-color: #2ecc71;
+    }
+
+    .form-control.error input {
+        border-color: #e74c3c;
+    }
+
+
+
+
+
+
+
+
+
+
+/* <!------- MEDIA QUERY -----!>  */
+
+
+@media(max-width: 700px){
+
+
+        /* 
+    --------------------------------------------------------
+    HEADER SECTION 
+    --------------------------------------------------------
+    */
+
+    .hamburger-menu-class{
+        display: none;
+    }
+
+    .fa-solid.fa-bars{
+        display: block;
+    }
+
+    .Header_box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(226, 226, 226);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    input{
+        display: none;
+    }
+
+    
+    .hamburger_menu_section{
+        display: flex;
+        align-self: center;
+        gap: 15px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 28px;
+    }
+
+    /*
+    .hamburger_menu_section{
+        display: flex;
+        gap: 30px;
+    }
+
+
+    .fa-solid.fa-bars, .fa-solid.fa-cart-shopping{
+        font-size: 30px;
+    }
+*/
+    .mobile-image-source{
+        height: 100px;
+    }
+
+    nav {
+        display: none;
+    }
+
+   
+
+    #hamburger-menu:checked ~ nav {
+        display:block;
+        position: absolute;
+        right: 0%;
+        top: 103.5px;
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+    }
+    
+     nav a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+
+    .front-page{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+    }
+
+
+    .front-page img{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .front-page button {
+        background-color: lightskyblue;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 80%;
+        top: 30%;
+        z-index: 5;
+    }
+
+    .section_2{
+        margin: 20px;
+    }
+
+    .girl_or_men_chooser{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .girl_or_men_chooser img{
+        width: 100%;
+    }
+
+    .men_section{
+        align-self: center;
+    }
+
+    .first_page_with_content{
+        background-image: url("images/pexels-gabriela-palai-395242\ \(1\)\ endret\ størrelse.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+
+    .row{
+        display: flex;
+        height: 100%; 
+    }
+
+    .col-2{
+        align-self: flex-end;
+        background-color: rgb(216, 214, 214);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10%;
+    }
+
+    .col-2 a{
+        color: white;
+        text-decoration: none; 
+        background-color: #ff523b;
+        padding: 8px 20px;
+        margin:30px 0;
+        border-radius: 30px;
+    }
+
+    .col-2 h1{
+        padding: 10px;
+    }
+
+        /* 
+    --------------------------------------------------------
+    HEADER SECTION DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    MAIN SECTION 
+    --------------------------------------------------------
+    */
+
+    .main-container{
+        max-width: 300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+
+    .title-for-main-container{
+        text-align: center;
+        position: relative;
+        line-height: 60px;
+        color: #555;
+        margin-top: 20px;
+    }
+
+    .title-for-main-container::after{
+        content: "";
+        background: #f14d37;
+        width: 300px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .row-inside-main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .title-for-main-container{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .products-columns{
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+
+
+
+    .products-columns img{
+        width: 100%;
+    }
+
+    /* 
+    --------------------------------------------------------
+    MAIN SECTION DONE
+    --------------------------------------------------------
+    */
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION 
+    --------------------------------------------------------
+    */
+
+
+
+
+    .footer_section{
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    .footer_container{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0%;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px 20px;
+
+    }
+    .footer-container1, .footer-container2, .footer-container3, .footer-container4{
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .footer-container1 h3, .footer-container2 h3, .footer-container3 h3, .footer-container4 h3{
+        text-decoration: underline;
+    }
+
+
+
+    .footer-container1 p, .app_icons, .footer-container2 p, .footer-container3 ul li{
+        color: #777171;
+        font-size: 16px;
+        margin-top: 5%;
+        list-style: none;
+    }
+
+    .app_icons, .social-meida-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 10%;
+        font-size: 24px;
+    }
+
+    .app_icons a i, .social-meida-icons a i{
+        color: #777171;
+    }
+
+    .copyright{
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    .copyright p{
+        color: white;
+        text-align: center;
+    }
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION DONE
+    --------------------------------------------------------
+    */
+
+    --------------------------------------------------------
+    PRODUCT DETAIL PAGE
+    --------------------------------------------------------
+    */
+
+    .container-for-product-page{
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+
+    .row-for-product-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .small-img-row{
+        flex-wrap: wrap;
+    }
+
+
+
+    .col-2-for-product-page, .column-for-product-page{
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+        gap: 20px;
+        align-self: center;
+        background-color: rgb(216, 214, 214);
+        padding: 20px;
+        border-radius: 10%;
+    }
+
+    .btn-for-product-page{
+        text-decoration: none;
+        background-color: #ff523b;
+        padding:5px;
+        color: white;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .col-2-for-product-page select{
+        max-width: 200px;
+    }
+
+    .col-2-for-product-page input {
+        display: block;
+        max-width: 50px;
+    }
+
+
+    /* 
+    --------------------------------------------------------
+    PRODUCT DETAIL PAGE DONE
+    --------------------------------------------------------
+    */
+
+    .product.detail.image{
+        width: 100%;
+    }
+
+    #product.details.page{
+        max-width: 300px;
+    }
+
+    #title.on.product.page{
+        text-align: center;
+    }
