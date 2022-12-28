@@ -227,19 +227,26 @@ p {
     --------------------------------------------------------
     */
 
-    .btn{
-        cursor: pointer;
-        padding: 20px;
-        background-color: wheat;
-        border-radius: 10px;
+    #buttons{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
     }
 
+    .btn-general, .btn-programming{
+        padding: 10px;
+        cursor: pointer;
+    }    
+    
     .btn:hover{
         background-color: lightgrey;
     }
 
     .h1forjokes{
+        padding: 20px;
         text-align: center;
+        background-color: lightblue;
     }
 
     .wrapper{
@@ -279,6 +286,8 @@ p {
     .p-jokes{
     }
 
+
+
     /* 
     --------------------------------------------------------
     JOKES CSS DONE
@@ -289,17 +298,41 @@ p {
     --------------------------------------------------------
     JOKES DETAILS CSS
     --------------------------------------------------------
-    */
+    */    
 
     .detail-content{
-        display: flex;
-        flex-direction: column;
+
+    }
+    
+    .detailCard{
         background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+
     }
 
-    .detailCard, .detailType, .detailP  {
-        align-self: center;
+    .detailCard, .detailType, .detailSetup  {
+        text-align: center;
+        padding: 10px;
     }
+
+    .detailPunchline{
+        display: none;
+        text-align: center;
+        background-color: #4ed686;
+        font-size: 18px;
+    }
+
+    .divForButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .showMoreorLessButton{
+        padding: 10px;
+        margin: 20px;
+    }
+
 
 
 
@@ -370,7 +403,6 @@ p {
 
     .copyright{
         background-color: black;
-        margin-top: 20px;
     }
 
     .copyright p{
@@ -1065,7 +1097,6 @@ p {
 
     .copyright{
         background-color: black;
-        margin-top: 20px;
     }
 
     .copyright p{

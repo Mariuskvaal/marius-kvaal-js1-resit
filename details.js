@@ -43,10 +43,26 @@ getDetails();
 function createHtml (json){
 
 detailContainer.innerHTML += `
-                                <h1 class="detailCard">${json.id}</h1>
-                                <h2 class="detailType">${json.type}</h2>
-                                <p class="detailP">${json.setup}</p>
+                                <h1 class="detailCard"> Joke nr:${json.id}</h1>
+                                <h3 class="detailType">Type: ${json.type}</h3>
+                                <p class="detailSetup">${json.setup}</p>
+                                <p class="detailPunchline">${json.punchline}</p>
+
                               
                              `;
 
+                              }
+
+
+
+                              function toggle(){
+                                 var x =document.querySelector(".detailPunchline");
+
+                                 if(x.style.display === "none"){
+                                    x.style.display ="block";
+                                 }
+
+                                 else {
+                                    x.style.display = "none";
+                                 }
                               }
