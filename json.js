@@ -32,4 +32,14 @@ async function getJokes() {
 
 getJokes();
 
+buttonGeneral.addEventListener ("click", hideProgrammingAndKnockknock);
+
+function hideProgrammingAndKnockknock() { 
+
+    if (json[i].type=== programming) {
+    }
+
+
+}
+
 
