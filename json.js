@@ -3,7 +3,7 @@ const buttonGeneral = document.querySelector("#btn-general")
 
 const url ="https://api.noroff.dev/api/v1/jokes";
 
-async function getBlogs() {
+async function getJokes() {
 
     try {
 
@@ -11,10 +11,10 @@ async function getBlogs() {
 
     const json = await response.json();
 
-    //console.log(json);
+    //console.log(json[i]);
 
     for (let i = 0; i < json.length; i++) {
-        //console.log(json[i]);   
+        //console.log(json[i].id);   
 
         Container.innerHTML += `<a  href="details.html?id=${json[i].id}" class="card">
                                 <h2 class="overskrif-jokes">${json[i].type}</h2>
@@ -31,23 +31,6 @@ async function getBlogs() {
     };
 
 
-getBlogs();
-
-buttonGeneral.addEventListener("click", e => {
-    
-    for (let i = 0; i < json.length; i++) {
-
-    console.log(json[i]);
-
-if (json[i].type !== "general") {
-        
-    }
-}  
-    console.log(buttonGeneral);
-})
-
-
-
-console.log(json[i].type);
+getJokes();
 
 
