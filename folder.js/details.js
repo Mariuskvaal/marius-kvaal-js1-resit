@@ -55,7 +55,7 @@ detailContainer.innerHTML += `
 
 
 
-                              function toggle(){
+                              function showPunchline(){
                                  var x =document.querySelector(".detailPunchline");
 
                                  if(x.style.display === "none"){
