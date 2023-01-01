@@ -56,13 +56,13 @@ detailContainer.innerHTML += `
 
 
                               function showPunchline(){
-                                 var x =document.querySelector(".detailPunchline");
+                                 const showPunchline =document.querySelector(".detailPunchline");
 
-                                 if(x.style.display === "none"){
-                                    x.style.display ="block";
+                                 if(showPunchline.style.display === "none"){
+                                    showPunchline.style.display ="block";
                                  }
 
                                  else {
-                                    x.style.display = "none";
+                                    showPunchline.style.display = "none";
                                  }
                               }

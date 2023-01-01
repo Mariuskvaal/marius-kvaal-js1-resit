@@ -27,24 +27,5 @@ async function getJokes() {
     console.log(error);
  }
     };
-    
-    
-function filterGeneralJokes() {
-
-console.log(json);
-
-
-}
-
-const button = document.querySelector(".btn-general");
-
-
-button.addEventListener("click", filterGeneralJokes);
-
 
 getJokes();
-
-/*
-
-
-*/
