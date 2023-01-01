@@ -65,159 +65,12 @@ p {
         color: black;
     }
 
-    .front-page{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: auto;
-    }
-
-
-    .front-page img{
-        width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 6;
-    }
-
-    .front-page button {
-        background-color: lightskyblue;
-        font-size: 20px;
-        position: absolute;
-        margin-left: 80%;
-        top: 30%;
-        z-index: 5;
-    }
-
-    .section_2{
-        margin: 20px;
-    }
-
-    .girl_or_men_chooser{
-        display: flex;
-        justify-content: space-evenly;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .girl_or_men_chooser img{
-        width: 100%;
-    }
-
-    .men_section{
-        align-self: center;
-    }
-
-    .first_page_with_content{
-        background-image: url("images/pexels-gabriela-palai-395242\ \(1\)\ endret\ størrelse.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 65vh;
-        padding: auto;
-    }
-
-    .row{
-        display: flex;
-        height: 100%; 
-    }
-
-    .col-2{
-        align-self: flex-end;
-        background-color: rgb(216, 214, 214);
-        margin: 20px;
-        padding: 20px;
-        border-radius: 10%;
-    }
-
-    .col-2 a{
-        color: white;
-        text-decoration: none; 
-        background-color: #ff523b;
-        padding: 8px 20px;
-        margin:30px 0;
-        border-radius: 30px;
-    }
-
-    .col-2 h1{
-        padding: 10px;
-    }
-
         /* 
     --------------------------------------------------------
     HEADER SECTION DONE
     --------------------------------------------------------
     */
-
-    /* 
-    --------------------------------------------------------
-    MAIN SECTION 
-    --------------------------------------------------------
-    */
-
-    .main-container{
-        max-width: 1200px;
-        margin: auto;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 30px;
-    }
-
-    .title-for-main-container{
-        text-align: center;
-        position: relative;
-        line-height: 60px;
-        color: #555;
-        margin-top: 20px;
-    }
-
-    .title-for-main-container::after{
-        content: "";
-        background: #f14d37;
-        width: 300px;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 0%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .row-inside-main-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        flex-wrap: wrap;
-    }
-
-    .products-columns{
-        max-width: 400px;
-        border: black solid 2px;
-        padding: 5px;
-        background-color: rgb(255, 221, 208);
-    }    
-    
-    .products-columns img{
-        width: 100%;
-    }
-
-    .title-for-main-container{
-        margin-top: 60px;
-        margin-bottom: 20px;
-    }
-
-
-
-
-
-    /* 
-    --------------------------------------------------------
-    MAIN SECTION DONE
-    --------------------------------------------------------
-    */
-
-        /* 
+/* 
     --------------------------------------------------------
     JOKES CSS
     --------------------------------------------------------
@@ -277,6 +130,12 @@ p {
         align-self: center;
         text-decoration: none;
         color: black;
+    }
+
+    .FilterText{
+        text-align: center;
+        margin-top: 20px;
+        color: red
     }
 
     .p-jokes{
@@ -371,12 +230,6 @@ p {
         flex-basis: 40%;
         text-align: center;
     }
-
-    .footer-container1 h3, .footer-container2 h3, .footer-container3 h3, .footer-container4 h3{
-        text-decoration: underline;
-    }
-
-
 
     .footer-container1 p, .app_icons, .footer-container2 p, .footer-container3 ul li{
         color: #777171;
